@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.abhishek.dragdroptest.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/option_1"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Apple"
+        android:textStyle="bold"
+        android:textColor="#f90606"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/option_2"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Orange"
+        android:textStyle="bold"
+        android:layout_weight="0.90"
+        android:textColor="#f90606"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/option_3"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Ball"
+        android:textStyle="bold"
+        android:textColor="#f90606"
+        android:layout_weight="1.03"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/choice_1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="A for "
+        android:layout_weight="0.30"
+        android:textColor="#f90606"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/choice_2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="O for "
+        android:textColor="#f90606"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/choice_3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="B for "
+        android:textColor="#f90606"
+        android:textSize="30dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:onClick="reset"/>
+
+</LinearLayout>
